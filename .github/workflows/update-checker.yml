@@ -8,6 +8,7 @@
 # File: .github/workflows/update-checker.yml
 # Description: Source code update checker
 #
+
 name: Update Checker
 
 env:
@@ -16,8 +17,8 @@ env:
 
 on:
   workflow_dispatch:
- schedule:
-   - cron: 0 */18 * * *
+  schedule:
+    - cron: 0 */18 * * *
 
 jobs:
   check:
